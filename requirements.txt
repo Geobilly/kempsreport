@@ -75,7 +75,6 @@ pyzmq
 referencing
 requests
 rich
-rpds-py
 scikit-learn
 scipy
 semantic-version
