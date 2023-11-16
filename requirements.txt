@@ -70,7 +70,6 @@ pyparsing
 python-dateutil
 python-multipart
 pytz
-pywin32==306
 PyYAML
 pyzmq
 referencing
