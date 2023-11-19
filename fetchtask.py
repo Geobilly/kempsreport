@@ -18,6 +18,11 @@ def load_tasks():
         # Filter out empty rows
         tasks = [task for task in tasks if any(task.values())]
 
+        # Update "status" column to "Not Started" for empty rows
+        for task in tasks:
+            if not task.get('status'):
+                task['status'] = 'Not Started'
+
         return tasks
     except FileNotFoundError:
         return []
